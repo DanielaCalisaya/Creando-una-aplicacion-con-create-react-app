@@ -1,12 +1,12 @@
-import './App.css';
-import Navigation from './components/Navigation';
-import Gif from './components/Gif';
+import React from 'react';
+import Navigation from './Navigation';
+import Gif from './Gif';
 
 function App() {
   return (
     <div className="App">
-      <Navigation/>
-      <Gif/>
+      <Navigation />
+      <Gif />
     </div>
   );
 }
